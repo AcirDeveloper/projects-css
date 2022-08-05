@@ -1,4 +1,4 @@
-# PRACTICA CON CSS VANILLA
+# PRACTICAS CON CSS Y JS VANILLA
 
 - Aquí Realizo diferentes ejercicios de CSS Y JAVASCRIPT
 
