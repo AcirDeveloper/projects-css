@@ -1,8 +1,18 @@
 # PRACTICA CON CSS VANILLA
 
-- Aquí Realizo diferentes pequeños proyectos con de css en total seran 20 con la posibilidad de aumentar mas proyectos.
+- Aquí Realizo diferentes ejercicios de CSS Y JAVASCRIPT
 
-## Lista de proyectos
+## Lista de ejercicios CSS
 
-1.- Barra de Navegación Responsiva
-2.- Tarjetas con Animación
+1. Barra de Navegación Responsiva
+2. Tarjetas con Animación
+3. Customizando Una Tabla
+4. Notificaciones Animadas
+
+## Lista de ejercicios JS
+
+1. Contador de días
+2. Componente de raiting
+3. Componente Input con Mascara
+4. Teclado virtual
+5. Tecnica Pomodoro

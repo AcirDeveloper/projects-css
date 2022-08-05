@@ -9,56 +9,63 @@
     <!-- Mis Estilos -->
     <link rel="stylesheet" href="/styles/nav.css">
     <link rel="stylesheet" href="/styles/cards.css">
+    <link rel="stylesheet" href="/styles/tablas.css">
+    <link rel="stylesheet" href="/styles/contador_dias.css">
+    <link rel="stylesheet" href="/styles/raiting.css">
+    <link rel="stylesheet" href="/styles/mascara.css">
+
     <!-- Estilos fuentes e iconos -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 
 <body>
-    <nav>
-        <!-- Mobile -->
-        <div class="mobile">
-            <div class="header">
-                <div class="logo">Logo</div>
-                <div class="more"><button id="bMore"><span class="material-symbols-outlined">
-                            menu
-                        </span></button></div>
-            </div>
-            <div id="links" class="links collapsed">
-                <a href="#">Services</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Search</a>
-                <a href="#">Sign up</a>
-                <a href="#">Login</a>
-            </div>
-        </div>
-        <!-- Desktop -->
-        <div class="desktop">
-            <div class="logo">logo</div>
-            <div class="primary">
-                <a href="#">Services</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </div>
-            <div class="secondary full">
-                <a href="#">Search</a>
-                <a href="#">Sign up</a>
-                <a href="#">Login</a>
-            </div>
-            <div class="secondary mini">
-                <a href="#" class="more">More</a>
-                <div class="submenu">
+    <main>
+        <nav>
+            <!-- Mobile -->
+            <div class="mobile">
+                <div class="header">
+                    <div class="logo">Logo</div>
+                    <div class="more"><button id="bMore"><span class="material-symbols-outlined">
+                                menu
+                            </span></button></div>
+                </div>
+                <div id="links" class="links collapsed">
+                    <a href="/pages/tablas.html" target="_blank">Tablas</a>
+                    <a href="/pages/teclado.html" target="_blank">Teclado</a>
+                    <a href="/pages/pomodoro.html" target="_blank">Pomodoro</a>
                     <a href="#">Search</a>
                     <a href="#">Sign up</a>
                     <a href="#">Login</a>
                 </div>
             </div>
-        </div>
-    </nav>
-    <main>
+            <!-- Desktop -->
+            <div class="desktop">
+                <div class="logo">logo</div>
+                <div class="primary">
+                    <a href="/pages/tablas.html" target="_blank">Tablas</a>
+                    <a href="/pages/teclado.html" target="_blank">Teclado</a>
+                    <a href="/pages/pomodoro.html" target="_blank">Pomodoro</a>
+                </div>
+                <div class="secondary full">
+                    <a href="#">Search</a>
+                    <a href="#">Sign up</a>
+                    <a href="#">Login</a>
+                </div>
+                <div class="secondary mini">
+                    <a href="#" class="more">More</a>
+                    <div class="submenu">
+                        <a href="#">Search</a>
+                        <a href="#">Sign up</a>
+                        <a href="#">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!-- Tarjetas -->
         <section class="section--card">
+            <h2>Tarjetas Animadas</h2>
             <div class="cards">
                 <!-- Card 1 -->
                 <div class="card">
@@ -118,28 +125,51 @@
                 </div>
             </div>
         </section>
-        <!-- Tabla -->
-        <section class="tabla">
-            <table>
-                <tr>
-                    <th>Nº</th>
-                    <th>Name</th>
-                    <th>Last Name</th>
-                    <th>Gmail</th>
-                    <th>Phone</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Maria</td>
-                    <td>Valencia</td>
-                    <td>maria@gmail.com</td>
-                    <td>1245458</td>
-                </tr>
-            </table>
+        <!-- Contador de Dias -->
+        <section>
+            <h2 class="contador">Contador de Días con LocalStorage</h2>
+            <div id="app">
+                <div class="form">
+                    <form action="">
+                        <input type="text" id="eventName" />
+                        <input type="date" id="eventDate" />
+                        <input type="submit" id="bAdd" value="Añadir evento" />
+                    </form>
+                </div>
+                <div id="eventsContainer"></div>
+            </div>
+        </section>
+        <!-- Componente de raiting -->
+        <section class="raiting--section">
+            <h2>Componente de Raiting</h2>
+            <div id="app">
+                <div class="raiting"></div>
+            </div>
+        </section>
+        <!-- Input con mascara -->
+        <section class="input--section">
+            <h2>Input con mascara</h2>
+            <div id="app">
+                <div class="card">
+                    <div class="holder">Julio Sevillano</div>
+                    <input type="text" id="inputtCard2" placeholder="####-####-####-####" />
+                    <input type="text" id="inputDate" placeholder="##/##" />
+                    <input type="text" id="inputCVV" placeholder="123" />
+                </div>
+            </div>
+        </section>
+        <!-- Teclado Virtual -->
+        <section>
+
         </section>
     </main>
 
     <script src="/js/nav.js"></script>
+    <script src="/js/contador_dias.js"></script>
+    <script src="/js/raiting.js"></script>
+    <script src="/js/mascara.js"></script>
+
+
 </body>
 
 </html>
