@@ -1,4 +1,3 @@
-'use strict';
 export function teclado() {
 	// Aun no esta declarado
 	const llavesd = [

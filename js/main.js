@@ -1,18 +1,18 @@
-import { contador } from './components/contador_dias'
-import { handleInput } from './components/mascara'
-import { navegacion } from './components/nav'
-import { pomodoro } from './components/pomodoro'
-import { raiting } from './components/raiting'
-import { teclado } from './components/teclado'
+import { contador } from './components/contador_dias.js'
+import { handleInput } from './components/mascara.js'
+import { navegacion } from './components/nav.js'
+import { pomodoro } from './components/pomodoro.js'
+import { raiting } from './components/raiting.js'
+import { teclado } from './components/teclado.js'
 
 // DomLoaa
 document.addEventListener('DOMContentLoaded', () => {
 	navegacion()
-	contador()
+	contador
 	handleInput()
 	pomodoro()
 	raiting()
 	teclado()
 })
 
-// addEvent, dateDiff, save, load
+//events, addEvent, renderEvents, dateDiff, save, load

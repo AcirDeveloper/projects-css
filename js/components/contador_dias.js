@@ -1,5 +1,6 @@
 export function contador() {
 	let events = []
+	let arr
 
 	// Lectura de los elementos del DOM
 	const eventName = document.querySelector('#eventName')
@@ -15,7 +16,6 @@ export function contador() {
 	} catch (error) {
 		arr = []
 	}
-
 	events = arr ? [...arr] : []
 	renderEvents()
 

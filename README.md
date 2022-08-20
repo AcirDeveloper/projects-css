@@ -2,17 +2,13 @@
 
 - Aquí Realizo diferentes ejercicios de CSS Y JAVASCRIPT
 
-## Lista de ejercicios CSS
+## Lista de componentes CSS Y JS
 
-1. Barra de Navegación Responsiva
-2. Tarjetas con Animación
-3. Customizando Una Tabla
-4. Notificaciones Animadas
-
-## Lista de ejercicios JS
-
-1. Contador de días
-2. Componente de raiting
-3. Componente Input con Mascara
-4. Teclado virtual
-5. Tecnica Pomodoro
+| Nº         | CSS                            | JS                           |
+| ---------- | ------------------------------ | ---------------------------- |
+| 1.         | Barra de Navegación Responsiva | Contador de días             |
+| 2.         | Tarjetas con Animación         | Componente de raiting        |
+| 3.         | Customizando Una Tabla         | Componente Input con Mascara |
+| 4.         | Notificaciones Animadas        | Teclado virtual              |
+| 5.         |                                | Tecnica Pomodoro             |
+| ---------- | ---------                      | ---------                    |
