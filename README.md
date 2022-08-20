@@ -10,5 +10,5 @@
 | 2.         | Tarjetas con Animación         | Componente de raiting        |
 | 3.         | Customizando Una Tabla         | Componente Input con Mascara |
 | 4.         | Notificaciones Animadas        | Teclado virtual              |
-| 5.         |                                | Tecnica Pomodoro             |
+| 5.         | Espinner                       | Tecnica Pomodoro             |
 | ---------- | ---------                      | ---------                    |
