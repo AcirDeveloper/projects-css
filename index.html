@@ -8,72 +8,77 @@
     <title>Proyectos</title>
     <!-- Mis Estilos -->
     <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/nav.css">
-    <link rel="stylesheet" href="/styles/cards.css">
-    <link rel="stylesheet" href="/styles/tablas.css">
-    <link rel="stylesheet" href="/styles/contador_dias.css">
-    <link rel="stylesheet" href="/styles/raiting.css">
-    <link rel="stylesheet" href="/styles/mascara.css">
-    <link rel="stylesheet" href="/styles/pomodoro.css">
-    <link rel="stylesheet" href="/styles/teclado.css">
 
     <!-- Estilos fuentes e iconos -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- JS -->
     <script src="/js/main.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/6a74fdfcbd.js" crossorigin="anonymous" defer></script>
 
 </head>
 
 <body>
 
+    <!-- Barra de navegacion -->
+    <nav>
+        <!-- Mobile -->
+        <div class="mobile">
+            <div class="header">
+                <div class="logo">Logo</div>
+                <div class="more"><button id="bMore"><span class="material-symbols-outlined">
+                            menu
+                        </span></button></div>
+            </div>
+            <div id="links" class="links collapsed">
+                <a href="#">Tablas</a>
+                <a href="#">Teclado</a>
+                <a href="#">Pomodoro</a>
+                <a href="#">Search</a>
+                <a href="#">Sign up</a>
+                <a href="#">Login</a>
+            </div>
+        </div>
+        <!-- Desktop -->
+        <div class="desktop">
+            <div class="logo">logo</div>
+            <div class="primary">
+                <a href="#">Tablas</a>
+                <a href="#">Teclado</a>
+                <a href="#">Pomodoro</a>
+            </div>
+            <div class="secondary full">
+                <a href="#">Search</a>
+                <a href="#">Sign up</a>
+                <a href="#">Login</a>
+            </div>
+            <div class="secondary mini">
+                <a href="#" class="more">More</a>
+                <div class="submenu">
+                    <a href="#">Search</a>
+                    <a href="#">Sign up</a>
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <main>
-        <!-- Barra de navegacion -->
-        <nav>
-            <!-- Mobile -->
-            <div class="mobile">
-                <div class="header">
-                    <div class="logo">Logo</div>
-                    <div class="more"><button id="bMore"><span class="material-symbols-outlined">
-                                menu
-                            </span></button></div>
-                </div>
-                <div id="links" class="links collapsed">
-                    <a href="/pages/tablas.html" target="_blank">Tablas</a>
-                    <a href="/pages/teclado.html" target="_blank">Teclado</a>
-                    <a href="/pages/pomodoro.html" target="_blank">Pomodoro</a>
-                    <a href="#">Search</a>
-                    <a href="#">Sign up</a>
-                    <a href="#">Login</a>
-                </div>
-            </div>
-            <!-- Desktop -->
-            <div class="desktop">
-                <div class="logo">logo</div>
-                <div class="primary">
-                    <a href="/pages/tablas.html" target="_blank">Tablas</a>
-                    <a href="/pages/teclado.html" target="_blank">Teclado</a>
-                    <a href="/pages/pomodoro.html" target="_blank">Pomodoro</a>
-                </div>
-                <div class="secondary full">
-                    <a href="#">Search</a>
-                    <a href="#">Sign up</a>
-                    <a href="#">Login</a>
-                </div>
-                <div class="secondary mini">
-                    <a href="#" class="more">More</a>
-                    <div class="submenu">
-                        <a href="#">Search</a>
-                        <a href="#">Sign up</a>
-                        <a href="#">Login</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
         <!-- Tarjetas -->
         <section class="section--card">
             <h2>Tarjetas Animadas</h2>
-            <div class="spinner"></div>
+            <!-- SPINNER -->
+            <div>
+                <h3>Spinner</h3>
+                <div class="spinner"></div>
+            </div>
+            <br><br>
+            <!-- Notification -->
+            <h3>Componente de notificación</h3>
+            <div class="notification">
+                <div class="count">28</div>
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <br><br>
             <div class="cards">
                 <!-- Card 1 -->
                 <div class="card">
@@ -494,6 +499,14 @@
             </table>
         </section>
         <hr>
+        <!-- Juego Tic Tac Toe -->
+        <section class="ttt">
+            <h2>TIC - TAC - TOE </h2>
+            <div id="app">
+                <div id="player"></div>
+                <div id="board"></div>
+            </div>
+        </section>
     </main>
 
 </body>

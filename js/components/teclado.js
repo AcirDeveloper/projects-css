@@ -91,7 +91,7 @@ export function teclado() {
 
 		layers[0].push(empty)
 		layers[1].unshift(empty)
-		console.log(layers)
+		/* console.log(layers) */
 
 		const htmlLayers = layers.map((layer) => {
 			return layer.join('')

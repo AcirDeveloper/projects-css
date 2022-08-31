@@ -36,7 +36,7 @@ export function raiting() {
 		item.addEventListener('click', (e) => {
 			const pos = item.getAttribute('data-pos')
 			currentValue = parseInt(pos) + 1
-			console.log(currentValue)
+			/* console.log(currentValue) */
 		})
 	})
 }
